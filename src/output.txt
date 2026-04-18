@@ -1,0 +1,299 @@
+Good Morning!
+I am Proton, how may I help you?
+Hi
+HI
+proton launch gesture recog
+I am not functioned to do this !
+proton launch gesture recognition
+Launched Successfully
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+proton stop gest
+I am not functioned to do this !
+proton stock gesture recognition
+I am not functioned to do this !
+proton stop gesture recognition
+Gesture recognition stopped
+proton search lead code
+Searching for  lead code
+This is what I found Sir
+proton launch files
+I am not functioned to do this !
+proton list files
+1:  $MfeDeepRem
+2:  $Recycle.Bin
+3:  $SysReset
+4:  Apps
+5:  backup
+6:  Config.Msi
+7:  dell
+8:  Documents and Settings
+9:  Drivers
+10:  DumpStack.log
+11:  DumpStack.log.tmp
+12:  hiberfil.sys
+13:  inetpub
+14:  Intel
+15:  MinGW
+16:  OneDriveTemp
+17:  pagefile.sys
+18:  PerfLogs
+19:  Program Files
+20:  Program Files (x86)
+21:  ProgramData
+22:  Recovery
+23:  swapfile.sys
+24:  System Repair
+25:  System Volume Information
+26:  Users
+27:  Windows
+These are the files in your root directory
+proton
+proton open 26
+1:  All Users
+2:  Default
+3:  Default User
+4:  desktop.ini
+5:  gaura
+6:  Public
+Opened Successfully
+proton open 5
+1:  .anaconda
+2:  .cache
+3:  .conda
+4:  .condarc
+5:  .config
+6:  .continuum
+7:  .copilot
+8:  .cursor
+9:  .git
+10:  .gitconfig
+11:  .gradle
+12:  .idlerc
+13:  .ipynb_checkpoints
+14:  .ipython
+15:  .jupyter
+16:  .keras
+17:  .lesshst
+18:  .matplotlib
+19:  .node_repl_history
+20:  .paddleocr
+21:  .viminfo
+22:  .virtual_documents
+23:  .vscode
+24:  .yarnrc
+25:  amazonML24
+26:  anaconda3
+27:  AppData
+28:  Application Data
+29:  BEL
+30:  Contacts
+31:  Cookies
+32:  coursera-assgs
+33:  CrossDevice
+34:  db-practice1
+35:  Documents
+36:  Downloads
+37:  Favorites
+38:  generated_captions.csv
+39:  Idea-Presentation-Format-SIH2023-College[1].pptx
+40:  index.html
+41:  IntelGraphicsProfiles
+42:  liftoff-main
+43:  Links
+44:  Local Settings
+45:  miniconda3
+46:  model.ipynb
+47:  Music
+48:  My Documents
+49:  NetHood
+50:  New folder
+51:  NTUSER.DAT
+52:  ntuser.dat.LOG1
+53:  ntuser.dat.LOG2
+54:  NTUSER.DAT{318ea86c-79c5-11f0-b02b-8614388d0a8e}.TM.blf
+55:  NTUSER.DAT{318ea86c-79c5-11f0-b02b-8614388d0a8e}.TMContainer00000000000000000001.regtrans-ms
+56:  NTUSER.DAT{318ea86c-79c5-11f0-b02b-8614388d0a8e}.TMContainer00000000000000000002.regtrans-ms
+57:  ntuser.ini
+58:  OneDrive
+59:  optimize.ipynb
+60:  PORTFOLIO-GAURANSH
+61:  Postman
+62:  PrintHood
+63:  Recent
+64:  report.ipynb
+65:  RP-image text
+66:  Saved Games
+67:  Searches
+68:  SendTo
+69:  sih24
+70:  Start Menu
+71:  Templates
+72:  Untitled.ipynb
+73:  Untitled1.ipynb
+74:  Untitled2.ipynb
+75:  Videos
+76:  visualisation.ipynb
+77:  yolo
+78:  zanko
+79:  zanko-frontend
+80:  Zotero
+Opened Successfully
+proton open 67
+1:  desktop.ini
+2:  Everywhere.search-ms
+3:  Indexed Locations.search-ms
+4:  Microsoft OneNote.searchconnector-ms
+5:  winrt--{S-1-5-21-1230874287-33603021-2306836106-1001}-.searchconnector-ms
+Opened Successfully
+proton go back
+1:  .anaconda
+2:  .cache
+3:  .conda
+4:  .condarc
+5:  .config
+6:  .continuum
+7:  .copilot
+8:  .cursor
+9:  .git
+10:  .gitconfig
+11:  .gradle
+12:  .idlerc
+13:  .ipynb_checkpoints
+14:  .ipython
+15:  .jupyter
+16:  .keras
+17:  .lesshst
+18:  .matplotlib
+19:  .node_repl_history
+20:  .paddleocr
+21:  .viminfo
+22:  .virtual_documents
+23:  .vscode
+24:  .yarnrc
+25:  amazonML24
+26:  anaconda3
+27:  AppData
+28:  Application Data
+29:  BEL
+30:  Contacts
+31:  Cookies
+32:  coursera-assgs
+33:  CrossDevice
+34:  db-practice1
+35:  Documents
+36:  Downloads
+37:  Favorites
+38:  generated_captions.csv
+39:  Idea-Presentation-Format-SIH2023-College[1].pptx
+40:  index.html
+41:  IntelGraphicsProfiles
+42:  liftoff-main
+43:  Links
+44:  Local Settings
+45:  miniconda3
+46:  model.ipynb
+47:  Music
+48:  My Documents
+49:  NetHood
+50:  New folder
+51:  NTUSER.DAT
+52:  ntuser.dat.LOG1
+53:  ntuser.dat.LOG2
+54:  NTUSER.DAT{318ea86c-79c5-11f0-b02b-8614388d0a8e}.TM.blf
+55:  NTUSER.DAT{318ea86c-79c5-11f0-b02b-8614388d0a8e}.TMContainer00000000000000000001.regtrans-ms
+56:  NTUSER.DAT{318ea86c-79c5-11f0-b02b-8614388d0a8e}.TMContainer00000000000000000002.regtrans-ms
+57:  ntuser.ini
+58:  OneDrive
+59:  optimize.ipynb
+60:  PORTFOLIO-GAURANSH
+61:  Postman
+62:  PrintHood
+63:  Recent
+64:  report.ipynb
+65:  RP-image text
+66:  Saved Games
+67:  Searches
+68:  SendTo
+69:  sih24
+70:  Start Menu
+71:  Templates
+72:  Untitled.ipynb
+73:  Untitled1.ipynb
+74:  Untitled2.ipynb
+75:  Videos
+76:  visualisation.ipynb
+77:  yolo
+78:  zanko
+79:  zanko-frontend
+80:  Zotero
+ok
+proton go back
+1:  All Users
+2:  Default
+3:  Default User
+4:  desktop.ini
+5:  gaura
+6:  Public
+ok
+proton go back
+1:  $MfeDeepRem
+2:  $Recycle.Bin
+3:  $SysReset
+4:  Apps
+5:  backup
+6:  Config.Msi
+7:  dell
+8:  Documents and Settings
+9:  Drivers
+10:  DumpStack.log
+11:  DumpStack.log.tmp
+12:  hiberfil.sys
+13:  inetpub
+14:  Intel
+15:  MinGW
+16:  OneDriveTemp
+17:  pagefile.sys
+18:  PerfLogs
+19:  Program Files
+20:  Program Files (x86)
+21:  ProgramData
+22:  Recovery
+23:  swapfile.sys
+24:  System Repair
+25:  System Volume Information
+26:  Users
+27:  Windows
+ok
+proton go back
+Sorry, this is the root directory
+proton find delhi
+proton
+proton find a location
+Which place are you looking for ?
+Locating...
+This is what I found Sir
+proton date
+April 19, 2026
+proton time
+01:36:48
+proton copy
+Copied
+proton paste
+Pasted
+proton copy
+Copied
+cant recognize
+proton waste
+proton paste
+Pasted
+proton sleep
+proton
+proton by
+Good bye Sir! Have a nice day.
+proton wake up
+Good Morning!
+I am Proton, how may I help you?
+proton exit
+Exit Successfull
+SystemError: Py_AddPendingCall: cannot add pending calls (Python shutting down)
+greenlet: WARNING: failed in call to Py_AddPendingCall; expect a memory leak.
