@@ -698,15 +698,50 @@
   </footer>
 
   <script>
-    // Fake download counter (replace with real backend later)
-    let count = localStorage.getItem('dl_count') || 42;
-    document.getElementById('dl-count').textContent = count;
+    // Supabase download tracking
+    const SUPA_URL = "https://typnhunatbatuffujsbn.supabase.co";
+    const SUPA_KEY = "sb_publishable_BppMCDxJ_ESiE_QsBZ13gw_MZ4mfG2J";
 
-    document.querySelectorAll('a[href="#download"]').forEach(btn => {
+    async function getDownloadCount() {
+      try {
+        const res = await fetch(`${SUPA_URL}/rest/v1/downloads?select=count`, {
+          headers: { apikey: SUPA_KEY, Authorization: `Bearer ${SUPA_KEY}` }
+        });
+        const rows = await res.json();
+        const total = rows.reduce((sum, r) => sum + (r.count || 0), 0);
+        document.getElementById('dl-count').textContent = total;
+      } catch(e) { document.getElementById('dl-count').textContent = '0'; }
+    }
+
+    async function incrementDownload(type) {
+      try {
+        const res = await fetch(`${SUPA_URL}/rest/v1/downloads?type=eq.${type}&select=id,count`, {
+          headers: { apikey: SUPA_KEY, Authorization: `Bearer ${SUPA_KEY}` }
+        });
+        const rows = await res.json();
+        if (!rows.length) return;
+        const { id, count } = rows[0];
+        await fetch(`${SUPA_URL}/rest/v1/downloads?id=eq.${id}`, {
+          method: 'PATCH',
+          headers: {
+            apikey: SUPA_KEY,
+            Authorization: `Bearer ${SUPA_KEY}`,
+            'Content-Type': 'application/json',
+            Prefer: 'return=minimal'
+          },
+          body: JSON.stringify({ count: count + 1 })
+        });
+        getDownloadCount();
+      } catch(e) { console.error(e); }
+    }
+
+    getDownloadCount();
+
+    document.querySelectorAll('.download-card a').forEach(btn => {
       btn.addEventListener('click', () => {
-        count = parseInt(count) + 1;
-        localStorage.setItem('dl_count', count);
-        document.getElementById('dl-count').textContent = count;
+        const tag = btn.closest('.download-card').querySelector('.download-tag').textContent;
+        const type = tag.includes('Gesture Only') ? 'gesture' : 'full';
+        incrementDownload(type);
       });
     });
 
