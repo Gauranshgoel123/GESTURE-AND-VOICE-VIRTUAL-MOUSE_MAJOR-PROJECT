@@ -535,14 +535,38 @@
     <div class="section-label">// See It In Action</div>
     <h2 class="section-title">Watch the Demo</h2>
     <p style="font-family: var(--mono); font-size: 0.82rem; color: var(--muted); max-width: 520px;">
-      See how hand gestures control cursor movement, clicks, scrolling, drag & drop, and more — all in real time.
+      See how hand gestures and voice commands control your PC in real time — no mouse, no keyboard.
     </p>
-    <div class="demo-wrapper">
-      <div class="demo-placeholder">
-        <div class="play-btn" onclick="document.querySelector('.demo-wrapper').innerHTML='<iframe width=\'100%\' height=\'100%\' src=\'https://www.youtube.com/embed/ufm6tfgo-OA\' frameborder=\'0\' allowfullscreen style=\'border-radius:16px\'></iframe>'">
-          <svg width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+
+    <!-- Gesture Demo -->
+    <div style="margin-top: 2.5rem;">
+      <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+        <div style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--purple-light); background: var(--purple-glow); border: 1px solid var(--border); padding: 0.3rem 0.8rem; border-radius: 100px;">Gesture Module</div>
+      </div>
+      <div class="demo-wrapper" id="gesture-demo">
+        <div class="demo-placeholder">
+          <div class="play-btn" onclick="loadVideo('gesture-demo', 'YOUR_GESTURE_VIDEO_YOUTUBE_ID')">
+            <svg width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <p>Gesture control demo — coming soon</p>
+          <p style="margin-top: 0.5rem; font-size: 0.7rem; opacity: 0.5;">Replace YOUR_GESTURE_VIDEO_YOUTUBE_ID with your YouTube video ID</p>
         </div>
-        <p>Click to play demo video</p>
+      </div>
+    </div>
+
+    <!-- Voice Demo -->
+    <div style="margin-top: 3rem;">
+      <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+        <div style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--purple-light); background: var(--purple-glow); border: 1px solid var(--border); padding: 0.3rem 0.8rem; border-radius: 100px;">Voice Module</div>
+      </div>
+      <div class="demo-wrapper" id="voice-demo">
+        <div class="demo-placeholder">
+          <div class="play-btn" onclick="loadVideo('voice-demo', 'YOUR_VOICE_VIDEO_YOUTUBE_ID')">
+            <svg width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <p>Voice assistant demo — coming soon</p>
+          <p style="margin-top: 0.5rem; font-size: 0.7rem; opacity: 0.5;">Replace YOUR_VOICE_VIDEO_YOUTUBE_ID with your YouTube video ID</p>
+        </div>
       </div>
     </div>
   </section>
@@ -698,6 +722,11 @@
   </footer>
 
   <script>
+    // Load YouTube video into demo section
+    function loadVideo(sectionId, videoId) {
+      document.getElementById(sectionId).innerHTML = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/${videoId}?autoplay=1" frameborder="0" allowfullscreen style="border-radius:16px"></iframe>`;
+    }
+
     // Supabase download tracking
     const SUPA_URL = "https://typnhunatbatuffujsbn.supabase.co";
     const SUPA_KEY = "sb_publishable_BppMCDxJ_ESiE_QsBZ13gw_MZ4mfG2J";
