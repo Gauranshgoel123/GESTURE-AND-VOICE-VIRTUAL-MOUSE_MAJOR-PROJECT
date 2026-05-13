@@ -29,44 +29,39 @@ The system is divided into three major modules:
 - Drag and Drop  
 - Multiple Item Selection  
 
-### 🔄 Scrolling
+### 🔄 Scrolling (FUTURE SCOPE)
 - Vertical Scrolling  
-- Horizontal Scrolling  
-- Speed varies based on gesture movement  
-
-### 🔊 System Controls
-- Volume Control using pinch gesture  
-- Brightness Control using dynamic gestures  
+- Horizontal Scrolling   
 
 ---
 
-## 🎙️ Voice Assistant (Proton)
+## 🎙️ Voice Assistant (Nova)
 
 ### ⚙️ System Control
-- `Proton Launch Gesture Recognition` → Start gesture system  
-- `Proton Stop Gesture Recognition` → Stop gesture system  
+- `Nova Launch Gesture Recognition` → Start gesture system  
+- `Nova Stop Gesture Recognition` → Stop gesture system  
 
 ### 🌐 Web Commands
-- `Proton search <query>` → Search on Google  
-- `Proton find a location` → Open location in Maps  
+- `Nova search <query>` → Search on Google  
+- `Nova find a location` → Open location in Maps  
 
 ### 📁 File Navigation
-- `Proton list files` → List files in directory  
-- `Proton open <number>` → Open file/folder  
-- `Proton back` → Go to parent directory  
+- `Nova list files` → List files in directory  
+- `Nova open <number>` → Open file/folder  
+- `Nova back` → Go to parent directory  
 
 ### ⏰ Utility
-- `Proton time` → Get current time  
-- `Proton date` → Get current date  
+- `Nova time` → Get current time  
+- `Nova date` → Get current date  
 
 ### 📋 Productivity
-- `Proton copy` → Copy selected text  
-- `Proton paste` → Paste copied text  
+- `Nova copy` → Copy selected text  
+- `Nova paste` → Paste copied text  
 
 ### 💤 Assistant Controls
-- `Proton bye` → Sleep mode  
-- `Proton wake up` → Resume  
-- `Proton exit` → Exit assistant  
+- `Nova bye` → Sleep mode  
+- `Nova wake up` → Resume  
+- `Nova exit` → Exit assistant  
 
 ---
 
@@ -82,7 +77,7 @@ The system is divided into three major modules:
 - Voice command logs  
 
 ### ⬇️ Access & Deployment
-- Downloadable software (planned)  
+- Downloadable software (both options available to user - only gesture as well as full combined) 
 - Setup and usage guide  
 
 ### 📄 Documentation
@@ -95,10 +90,8 @@ The system is divided into three major modules:
 ## 🧠 Tech Stack
 
 - Computer Vision: MediaPipe, OpenCV  
-- Machine Learning: CNN  
-- Voice Processing: Speech Recognition, PyAudio  
-- Backend: Python  
-- Frontend: ReactJS
+- Voice Processing - Natural Language Processing: Speech Recognition, PyAudio  
+- Backend: Python, Supabase(PostgreSQL)  
 
 ---
 
@@ -135,15 +128,8 @@ The system is divided into three major modules:
 ## 📎 Project Status
 
 - ✅ Gesture Module: Completed  
-- 🔄 Voice Module: In Progress  
-- 🔄 Web Interface: In Development  
-- 🔄 Deployment: Pending  
-
----
-
-## 📚 Reference
-
-Based on gesture and voice system concepts from existing implementations  
-:contentReference[oaicite:0]{index=0}
+- 🔄 Voice Module: Completed  
+- 🔄 Web Interface: Completed  
+- 🔄 Deployment: Completed  
 
 ---
